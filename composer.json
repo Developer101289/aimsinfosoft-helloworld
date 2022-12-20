@@ -1,5 +1,5 @@
 {
-    "name": "developer101289/aimsinfosoft-helloworld",
+    "name": "aimsinfosoft/helloworld",
     "description": "Simple print Hello World for Magento 2",
     "type": "magento2-module",
     "version": "1.0.0",
@@ -13,7 +13,7 @@
             "name": "Aimsinfosoft"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "alpha",
     "require": {
         "php": "^7.3|^8.0"
     },
