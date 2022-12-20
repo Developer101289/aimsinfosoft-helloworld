@@ -13,11 +13,6 @@
             "name": "Aimsinfosoft"
         }
     ],
-    "require": {
-        "php": "^7.3|^8.0"
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true,
     "autoload": {
         "files": [
             "registration.php"
@@ -25,5 +20,9 @@
         "psr-4": {
             "Aimsinfosoft\\Helloworld\\": ""
         }
-    }
+    },
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "minimum-stability": "dev"
 }
