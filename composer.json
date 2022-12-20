@@ -3,10 +3,7 @@
   "description": "A Magento 2 module that print Helloworld",
   "type": "magento2-module",
   "version": "1.0.0",
-  "license": [
-    "OSL-3.0",
-    "AFL-3.0"
-  ],
+  "license": "GPL-3.0-or-later",
   "authors": [
     {
       "name": "Aimsinfosoft",
