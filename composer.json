@@ -13,10 +13,11 @@
             "name": "Aimsinfosoft"
         }
     ],
-    "minimum-stability": "alpha",
     "require": {
         "php": "^7.3|^8.0"
     },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "autoload": {
         "files": [
             "registration.php"
