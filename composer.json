@@ -1,24 +1,28 @@
 {
-  "name": "aimsinfosoft/helloworld",
-  "description": "A Magento 2 module that print Helloworld",
-  "type": "magento2-module",
-  "version": "1.0.0",
-  "license": "GPL-3.0-or-later",
-  "authors": [
-    {
-      "name": "Aimsinfosoft",
-      "email": "info@aimsinfosoft.com",
-      "homepage": "https://aimsinfosoft.com"
+    "name": "aimsinfosoft/helloworld",
+    "description": "Simple print Hello World for Magento 2",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],https://github.com/Developer101289/aimsinfosoft-helloworld/blob/main/composer.json
+    "authors": [
+        {
+            "email": "testmagento111@gmail.com",
+            "name": "Aimsinfosoft"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Aimsinfosoft\\Helloworld\\": ""
+        }
     }
-  ],
-  "minimum-stability": "dev",
-  "require": {
-    "php": "^7.3|^8.0"
-  },
-  "autoload": {
-    "files": [ "registration.php" ],
-    "psr-4": {
-      "Aimsinfosoft\\Helloworld\\": ""
-    }
-  }
 }
